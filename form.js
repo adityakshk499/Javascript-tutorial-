@@ -18,14 +18,14 @@
 // })
 
 
-const personalia = document.getElementById('personalia');
-// console.log(personalia)
-personalia.addEventListener('submit',function(event){
-    event.preventDefault();
-    let fname = document.getElementById('fname').value
-    let lname = document.getElementById('lname').value
-    let email = document.getElementById('email').value
-    let birthday = document.getElementById('birthday').value
-    console.log(fname,lname,email,birthday)
+// const personalia = document.getElementById('personalia');
+// // console.log(personalia)
+// personalia.addEventListener('submit',function(event){
+//     event.preventDefault();
+//     let fname = document.getElementById('fname').value
+//     let lname = document.getElementById('lname').value
+//     let email = document.getElementById('email').value
+//     let birthday = document.getElementById('birthday').value
+//     console.log(fname,lname,email,birthday)
   
-})
+// })

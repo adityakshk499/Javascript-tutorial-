@@ -10,3 +10,14 @@
 // on html 
 // by selecting the element and add or edit events property 
 // by using mthod call addeventlisteners 
+
+// const btn = document.getElementById('btn');
+// console.log(btn)
+// btn.onclick= function(){
+//     console.log('clicked')
+// }
+
+
+// btn.addEventListener('click',function (){
+//     console.log(this)
+// })

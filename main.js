@@ -18,6 +18,7 @@
 // console.dir(typeof document.querySelector('h1'))
 // const main2 = document.querySelector('h1')
 
+
 // query selector all 
 // console.log(document.querySelectorAll('h1'))
 // console.dir(document.querySelectorAll('h1'))
@@ -46,7 +47,7 @@
 // getElemntsByClassName html collection just looks like array  that is lead to loop 
 
 // const classList = document.getElementsByClassName('list')
-// // console.log(classList)
+// console.log(classList)
 // for(let i = 0 ; i < classList.length; i++) {
 // console.log(classList[i].style)
 // classList[i].style.backgroundColor = 'blue'
@@ -71,13 +72,16 @@
 // traversing DOM 
 
 // const rootnode = document.getRootNode()
+// console.log(rootnode)
 // const childofroot = rootnode.childNodes
+// console.log(childofroot)
 // const HTML = childofroot[1].childNodes
+// console.log(HTML)
 // const head = HTML[0]
 // const text = HTML[1]
 // const body = HTML[2]
 // console.log(head , text , body)
-// console.log(text.nextSibling)\
+// console.log(text.nextSibling)
 // const content  = body.childNodes
 // body.style.color = 'blue'
 // text will be ignore if we used .children rather than .childNodes 
@@ -88,10 +92,14 @@
 // console.log(classexample)
 // console.log(classexample.classList)
 // console.log(classexample.classList.add('hero'))
+// console.log(classexample.classList)
+
 // console.log(classexample)
 // console.log(classexample.classList.remove('hero'))
 // console.log(classexample.classList)
 // classexample.classList.toggle('hero')
+// console.log(classexample.classList)
+
 // const isthere = classexample.classList.contains('hero')
 // console.log(isthere)
 
