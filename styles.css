@@ -1,0 +1,22 @@
+.outer{
+    background-color: cyan;
+    width: 400px;
+    height: 400px;
+    padding: 6px;
+}
+
+.inner{
+    background-color: skyblue ;
+    width: 300px;
+    height: 300px;
+    padding: 6px;
+
+}
+
+.innerinner{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    padding: 6px;
+
+}
